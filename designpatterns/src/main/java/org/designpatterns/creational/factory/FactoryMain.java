@@ -1,6 +1,6 @@
 package org.designpatterns.creational.factory;
 
-public class FactoryTest {
+public class FactoryMain {
     public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
         Shape shape = shapeFactory.getShape(ShapeType.CIRCLE);
