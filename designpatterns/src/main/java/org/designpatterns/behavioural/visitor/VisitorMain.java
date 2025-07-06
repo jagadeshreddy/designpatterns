@@ -5,7 +5,7 @@ public class VisitorMain {
 
         ComputerPartVisitor visitor = new ComputerPartDisplayVisitor();
 
-        Mouse mouse = new Mouse();
-        mouse.accept(visitor);
+        Computer computer = new Computer();
+        computer.accept(visitor);
     }
 }
